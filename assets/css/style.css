@@ -76,15 +76,15 @@
     padding: 10px;
   } @media (max-width:700px){
 .container{
-max-width: 100%;
+max-width: 620px;
 margin: 50px 20px;
 }
 .container1{
-  max-width: 100%;
+  max-width: 620px;
   margin: 50px 20px;
   }
 
 p{
-  font-size: 17px;
+  font-size: 14px;
 }
   }
