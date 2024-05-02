@@ -1,0 +1,82 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+  
+  * {
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  
+  .container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .container1{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    display: none;
+  }
+  
+
+  
+ input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input:focus {
+    outline: 1px solid var(--primary-color);
+  }
+  
+  input[type=button] {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  form button:hover {
+    background: var(--primary-color-darker);
+  }
+  ul{
+   padding: 0px;
+  }
+  li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .res > p{
+    padding: 10px;
+  } @media (max-width:700px){
+.container{
+max-width: 620px;
+margin: 50px 20px;
+}
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <h2>
+            Tabela imc
+        </h2>
+        <p><label for="nome">Nome:</label></p>
+        <p><input type="text" name="nome" id="nome"></p>
+        <p><label for="peso">Peso:</label></p>
+        <p><input type="number" name="peso" id="peso"></p>
+        <p><label for="alt">Altura:</label></p>
+        <p><input type="number" name="Alt" id="alt"></p>
+        <p><input type="button" value="Calcular" onclick="calcular()"></p>
+        <p><input type="button" value="Mostrar" onclick="mostrar()" id="bnt"></p>
+        <div class="res">
+
+        </div>
+       
+    </section>
+    <section class="container1">
+        <div class="res1">
+
+        </div>       
+
+    </section>
+    <script src="assets/javascript/main.js"></script>
+</body>
+</html>
