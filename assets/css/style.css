@@ -76,11 +76,11 @@
     padding: 10px;
   } @media (max-width:700px){
 .container{
-max-width: 620px;
+max-width: 100%;
 margin: 50px 20px;
 }
 .container1{
-  max-width: 620px;
+  max-width: 100%;
   margin: 50px 20px;
   }
 
