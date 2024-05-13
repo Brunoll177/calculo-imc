@@ -25,7 +25,7 @@ function calcular(){
         
         function retorno(calc){
     
-            if(imc < 16.9){
+            if(calc < 16.9){
                 return "Muito abaixo do peso"
             }else if(imc >= 17 && imc <= 18.4){
                 return "Abaixo do peso"
