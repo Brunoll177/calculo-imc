@@ -82,9 +82,13 @@ margin: 50px 20px;
 .container1{
   max-width: 620px;
   margin: 50px 20px;
+  display: none;
   }
 
 p{
   font-size: 14px;
 }
+  }
+  .display{
+    display: block;
   }
